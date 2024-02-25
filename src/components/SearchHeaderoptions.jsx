@@ -8,10 +8,10 @@ export default function SearchHeaderoptions() {
 
     const router=useRouter();
     const searchParams = useSearchParams();
-    const searchedTerm=searchParams.get('searchedTerm');
+    const searchTerm=searchParams.get('searchTerm');
     const Pathname=usePathname();
     const selectTab=(tab)=>{
-        router.push(`/search/${tab==='Images' ? 'image' : 'web'}?searchTerm=${searchedTerm}`);
+        router.push(`/search/${tab==='Images' ? 'image' : 'web'}?searchTerm=${searchTerm}`);
     }
 
   return (
