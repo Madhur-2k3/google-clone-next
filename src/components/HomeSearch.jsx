@@ -1,7 +1,9 @@
 'use client';
 import React, { useState } from 'react'
-import {AiOutlineSearch} from 'react-icons/ai'
-import {BsFillMicFill} from 'react-icons/bs'
+// import {AiOutlineSearch} from 'react-icons/ai'
+import { AiOutlineSearch } from "react-icons/ai";
+// import {BsFillMicFill} from 'react-icons/bs'
+import { BsFillMicFill } from "react-icons/bs";
 import { useRouter } from 'next/navigation'
 
 export default function HomeSearch() {
